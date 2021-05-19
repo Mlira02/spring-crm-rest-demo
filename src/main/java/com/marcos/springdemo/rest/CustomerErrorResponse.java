@@ -1,8 +1,6 @@
 package com.marcos.springdemo.rest;
 
-import org.springframework.web.bind.annotation.ControllerAdvice;
 
-@ControllerAdvice
 public class CustomerErrorResponse
 {
 
@@ -12,7 +10,7 @@ public class CustomerErrorResponse
 
     public CustomerErrorResponse()
     {
-        
+
     }
 
     public CustomerErrorResponse(int theStatus, String theMessage, long theTimeStamp)
